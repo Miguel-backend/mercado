@@ -25,6 +25,6 @@ public class MercadoriaController {
 
     @GetMapping("/recuperar-por-id/{id}")
     public Mercadoria recuperarPorID(@PathVariable Integer id) {
-        return mercadoriaService.recuperarPorID(id); 
+        return mercadoriaService.recuperarPorId(id); 
     }
 }
